@@ -18,14 +18,15 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float hAxis = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(hAxis*velocidade, rb.velocity.y);
 
-        if (hAxis != 0) Flip(hAxis);
+
+        float hAxis = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(hAxis*velocidade, 0);
+        if (hAxis != 0) { Flip(hAxis); }
 
         if (Input.GetButtonDown("Jump") && IsOnGround()) {
             rb.velocity = new Vector2(rb.velocity.x, 20);
-        }
+        } 
         
     }
 
