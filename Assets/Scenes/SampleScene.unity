@@ -227,7 +227,7 @@ MonoBehaviour:
   FloorCheck: {fileID: 1073108578}
   Floor:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
 --- !u!50 &101024199
 Rigidbody2D:
   serializedVersion: 4
@@ -236,7 +236,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101024195}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5982ada2f496cdc42bfc0d7444a6b619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 101024197}
 --- !u!1 &1073108576
 GameObject:
   m_ObjectHideFlags: 0
