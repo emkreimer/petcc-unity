@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class floor : MonoBehaviour
 {
+
+    [SerializeField] Transform Player;
     // Start is called before the first frame update
     void Start()
     {
